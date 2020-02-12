@@ -10,6 +10,6 @@ f = open("out.txt", "w")
 f.close()
 for g in graph_list:
     a = alg.Checker(g)
-    a.check_bipartite_graph()
+    a.check_graph_for_bipartite()
 
 
