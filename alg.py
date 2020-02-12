@@ -2,7 +2,7 @@ class Checker:
     def __init__(self, graph):
         self.graph = graph
 
-    def check_bipartite_graph(self):
+    def check_graph_for_bipartite(self):
         a = []
         b = []
         visited = [1]
